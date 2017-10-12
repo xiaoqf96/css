@@ -1,2 +1,2 @@
 # css
-学习css做的一些小demo
+在IT修真院自学css完成的task
