@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 400px) 
+    and (max-device-width: 600px)" href="smallScreen.css" />
     <title>九宫格</title>
     <style> 
     
-    
+     
         .box {
             width:500px;
             height:500px;
-            margin: 0 auto;
+            margin: 0 auto;     
             position: relative;
          }   
           
@@ -41,5 +43,10 @@
    
 </body>
 </html>
+
+ <!-- <head>中用link标签引入了自动检测屏幕大小进行调整的样式表（CSS3引入的Media Query模块）；
+     除此之外也可以选择在外部css中使用：
+      @import url("tinyScreen.css") screen and(max-device-width: 400px);  -->
+
 
 
